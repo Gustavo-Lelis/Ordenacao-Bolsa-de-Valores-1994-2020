@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class BolsaDeValores {
 
-    private LocalDate data;
+    private String data;
     private String ticket;
     private double open;
     private double close;
@@ -13,11 +13,11 @@ public class BolsaDeValores {
     private double low;
     private double volume;
 
-    public LocalDate getData() {
+    public String getData() {
         return data;
     }
 
-    public void setData(LocalDate data) {
+    public void setData(String data) {
         this.data = data;
     }
 

@@ -4,6 +4,7 @@ import Arquivos.EscreverArquivo;
 public class Main {
     public static void main(String[] args) {
         EscreverArquivo escreverArquivo = new EscreverArquivo();
-        escreverArquivo.setBolsaDeValores("C:\\Users\\PC\\Documents\\b3_stocks_1994_2020");
+
+        escreverArquivo.setBolsaDeValores("b3_stocks_1994_2020.csv");
     }
 }
